@@ -1,0 +1,55 @@
+use Sravya;
+create table employee
+(ename varchar(20),eage int,egender char,ephone bigint,erole varchar(20));
+insert into employee values('Sravya',23, 'F',1234567890,'trainee');
+insert into employee values('kalyani',23, 'F',245678901,'trainee');
+insert into employee values('LP',23, 'F',3456789012,'trainee');
+insert into employee values('Varshini',23, 'F',0123456789,'trainee');
+insert into employee values('Sangeeta',23, 'F',4567890123,'trainee');
+insert into employee values('Aditya',23, 'M',5678901234,'trainee');
+insert into employee values('Chintu',22, 'M',6789012345,'trainee');
+insert into employee values('Bannu',22, 'M',7890123456,'trainee');
+insert into employee values('Mastan',23, 'M',890123456,'trainee');
+insert into employee values('Karthik',23, 'M',9012345678,'trainee');
+select*from employee;
+use Sravya;
+create table customers
+(cname varchar(10),cgender char,cage int,cprice int,cfeedback varchar(35));
+insert into customers values('Sravya','F',23,2000,'good');
+insert into customers values('kallu','F',23,2465,'good');
+insert into customers values('LP','F',23,530,'good');
+insert into customers values('sageetha','F',23,5300,'bad');
+insert into customers values('potti','F',23,500,'good');
+insert into customers values('Aditya','M',23,2000,'bad');
+insert into customers values('Chintu','M',22,1540,'good');
+insert into customers values('Bannu','M',22,2060,'notbad');
+insert into customers values('X','F',23,690,'average');
+insert into customers values('Y','M',23,250,'not good');
+select*from employee;
+use Sravya;
+create table Hostels
+(room int,Name varchar(20),age int,phone bigint,floor int);
+insert into hostels values(101,'sravya',23,'34564708',1);
+insert into hostels values(104,'kallu',23,'458564708',1);
+insert into hostels values(203,'LP',23,'56954708',2);
+insert into hostels values(301,'X',23,'34564708',3);
+insert into hostels values(104,'r',23,'04564708',1);
+insert into hostels values(404,'z',23,'934564708',4);
+insert into hostels values(403,'Y',23,'734564708',4);
+insert into hostels values(104,'s',23,'434564708',1);
+insert into hostels values(204,'b',23,'834564708',2);
+insert into hostels values(204,'b',23,'834564708',2);
+select*from hostels;
+use sravya;
+create table passenger(pname varchar(20),gender char,price int,age int,bname varchar(10));
+insert into passenger values('sravya','f',600,23,'guntur');
+insert into passenger values('kallu','f',420,23,'goa');
+insert into passenger values('LP','f',535,23,'nadikude');
+insert into passenger values('chintu','m',900,22,'ONGLE');
+insert into passenger values('adithya','m',600,23,'guntur');
+insert into passenger values('bannu','m',497,23,'dachipalli');
+insert into passenger values('chinna','m',600,23,'guntur');
+insert into passenger values('sravya','f',740,23,'nrt');
+insert into passenger values('masthan','m',430,23,'guntur');
+insert into passenger values('karitha','m',600,23,'guntur');
+select*from passenger
